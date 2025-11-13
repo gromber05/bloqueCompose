@@ -20,11 +20,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun Ej1WelcomeScreen(
-    userName: String = "Entrenador"
+fun Ej1(
+    userName: String = "Fernando"
 ) {
-    val saludo = "¡Hola $userName!"
-
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -33,7 +31,7 @@ fun Ej1WelcomeScreen(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = saludo,
+            text = "Hola $userName",
             style = TextStyle(
                 fontSize = 32.sp,
                 fontWeight = FontWeight.Bold,

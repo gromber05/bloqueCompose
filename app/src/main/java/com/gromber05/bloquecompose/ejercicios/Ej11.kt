@@ -27,7 +27,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.gromber05.bloquecompose.R
 
-
 @Composable
 fun Ej11() {
     var showDialog by rememberSaveable { mutableStateOf(false) }

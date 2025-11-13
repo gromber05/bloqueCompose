@@ -31,6 +31,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
 
+/*
+He hecho uso de una data class para luego poder hacer la lista y así poder acceder a los valores más fácilmente.
+En resumen:
+    1. - El label es que el que se muestra en el slider
+    2. - El slider escoge una variable numérica, entre 0 y 3
+    3. - Según la posición se escoge un objeto dentro de la lista que tengo abajo
+    4. - Se acceden a los valores de la lista para luego cuando se registra el usuario
+*/
 data class AgeRange(val min: Int, val max: Int, val label: String)
 
 val ageRanges = listOf(
@@ -63,10 +71,17 @@ fun Ej12() {
     val emptyEmail = showErrors && email.isBlank()
     val emptyPswd = showErrors && password.isBlank()
 
+    /*
+    En esta parte del código hago uso de una variable llamada safeAgeRange para que no sobrepase a la hora de hacer uso del slider
+    y se salga de los límites de la lista.
+    */
     val safeAgeRange = ageRangeIndex.toInt().coerceIn(0, ageRanges.lastIndex)
     val context = LocalContext.current
 
     var message by rememberSaveable { mutableStateOf("") }
+    /*
+    Esta es la corrutina que se lanzará para simular que está cargando cuando la variable isLoading esté en true.
+     */
     LaunchedEffect(isLoading) {
         if (isLoading) {
             message = "Enviando..."

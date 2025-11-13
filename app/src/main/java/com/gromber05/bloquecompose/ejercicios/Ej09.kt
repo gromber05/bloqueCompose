@@ -34,12 +34,12 @@ fun Ej9() {
             .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Control de volumen", style = MaterialTheme.typography.titleLarge)
+        Text("Nivel del volúmen", style = MaterialTheme.typography.titleLarge)
         Spacer(modifier = Modifier.height(8.dp))
 
         Icon(
             imageVector = Icons.AutoMirrored.Filled.VolumeUp,
-            contentDescription = "Volumen",
+            contentDescription = "Volúmen",
             modifier = Modifier.size(iconSize)
         )
 
@@ -52,6 +52,6 @@ fun Ej9() {
             steps = 9
         )
 
-        Text("Volumen actual: ${volume.toInt()}")
+        Text("Volúmen actual: ${volume.toInt()}")
     }
 }

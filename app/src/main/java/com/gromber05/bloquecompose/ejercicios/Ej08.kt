@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun Ej8() {
-    val opciones = listOf("Tarjeta", "PayPal", "Transferencia")
+    val opciones = listOf("Tarjeta", "PayPal", "Bizum")
     var seleccion by rememberSaveable { mutableStateOf(opciones.first()) }
 
     Column(

@@ -141,7 +141,7 @@
 
 ## Ejercicio 11 — Dialog
 
-**Explicación:** Este ejercicio implementa un Dialog que se muestra al pulsar un botón. El diálogo contiene un título, un mensaje y dos botones, Pastilla Azul y Pastilla Roja. Al presionar el primero, la aplicación se cierra, al seleccionar el segundo, se muestra en la pantalla una foto de Macro, con el texto "Entraste en la matrix". Se gestiona mediante una variable de estado booleana (showDialog) que controla su visibilidad.
+**Explicación:** Este ejercicio implementa un Dialog que se muestra al pulsar un botón. El diálogo contiene un título, un mensaje y dos botones, Pastilla Azul y Pastilla Roja. Al presionar el primero, la aplicación se cierra, al seleccionar el segundo, se muestra en la pantalla una foto de Morfeo, con el texto "Entraste en la matrix". Se gestiona mediante una variable de estado booleana (showDialog) que controla su visibilidad.
 
 **Código:** https://github.com/gromber05/bloqueCompose/blob/b07f5bc40dac965fc4f967ced59579a5e1648c36/app/src/main/java/com/gromber05/bloquecompose/ejercicios/Ej11.kt#L30-L96
 

@@ -61,7 +61,7 @@ fun AppPrincipal() {
         topBar = {
             TopAppBar(
                 title = {
-                    Text("Ejercicios3 - Gonzalo Romero Bernal")
+                    Text("Ejercicio ${pantallaPrincipal + 1} - Gonzalo Romero Bernal")
                 })
         },
         bottomBar = {

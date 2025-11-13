@@ -154,7 +154,7 @@
 
 **Explicación:** Este ejercicio final integra varios componentes y conceptos aprendidos (como TextField, Button, layouts y estados) para construir un proyecto más completo. El diseño organiza los elementos de la interfaz de usuario de manera estructurada para simular una aplicación funcional.
 
-**Código:** https://github.com/gromber05/bloqueCompose/blob/b07f5bc40dac965fc4f967ced59579a5e1648c36/app/src/main/java/com/gromber05/bloquecompose/ejercicios/Ej12.kt#L34-L306
+**Código:** https://github.com/gromber05/bloqueCompose/blob/79fb3073545f4d097610bc6a3e82383c64975252/app/src/main/java/com/gromber05/bloquecompose/ejercicios/Ej12.kt#L34-L321
 
 **Foto:** 
 ![Foto del ejercicio 12](images/ej12.jpg)
